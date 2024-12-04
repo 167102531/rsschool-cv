@@ -1,0 +1,761 @@
+*{
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:  #FFFFFF;
+    width: 1440px;
+    height: 64px;
+    padding: 0px 8px 0px 8px;
+}
+.header_logo{
+    width: 141px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 12px;
+    margin-left: 15px;
+}
+.header_logo_name a{
+    width: 69px;
+    height: 16px;
+    color: #181C29;
+    font-style: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 5%;
+    text-decoration: none;
+}
+.header_menu{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    gap: 8px;
+    display: flex;
+    text-align: right;
+    align-items: end;
+    justify-content: end;
+    margin-left: 40px;
+}
+.header_menu ul{
+    width: 376px;
+    height: 40px;
+    gap: 8px;
+}
+.header_menu ul li{
+    width: 78px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+.header_menu ul li:hover{
+    gap: 8px;
+    background: var(--Primary-10, #FF46461A);
+    border-radius: 12px;
+}
+.header_menu ul li a:hover{
+    width: 376px;
+    height: 40px;
+    gap: 8px;
+    color: #FF4646;
+}
+.header_menu ul li a{
+    color: #181C29;
+    font-style: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 5%;
+    text-decoration: none;
+}
+.navbar{
+    list-style-type: none;
+}
+
+/* Main */
+.main{
+    background-image: url(https://s3-alpha-sig.figma.com/img/81a3/9777/2dfc048014f1902a0c5cef20e2241de5?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xi8XdHlaNr-HmyuSNkkV5nxl5PUogfd0p504dQj~XZDr8~J4oXViAhzU92XFoPuTcI3rpXHGaJCA4~sXo3ezUZ6kT4h3fPRybbioX8GDHZOGD8itcMYj7TlfOuTf0HmVdHjNE9z1OSZt-6ix61Wh4sEgzLK2PwsC5cUItVEMa157ZEz0J0GigjFKq8nUrX~b9W8mAt5LAVRcAY8GwNUWvGAyomdeUBV4kV-ZZ06PYDxl3B6Ks58OeKszj92DzqpltgkXi0zJNerwXx5hQa06hTcc2QS6pZ55SzZTOLTN36bHvVEPTE8JfQZOMyEOH-xZmE6XL2DZwQh8bCpQMKD-Dw__);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 524px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 60px 8px 60px 8px;
+    background-color: #FF4646;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.main_square{
+    width: 426px;
+    height: 404px;
+    padding: 60px 0px 60px 0px;
+    gap: 12px;
+    opacity: 0px;
+    position: absolute;
+    margin-left: 505px;
+}
+.main_ball img{
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -8%;
+}
+.main_merry{
+    width: 426px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #FFFFFF;
+    top: 50px;
+    margin-left: 2px;
+    margin-top: -4px;
+}
+.main_magic{
+    width: 426px;
+    height: 144px;
+    display: flex;
+    text-align: center;
+}
+.main_magic h1{
+    width: 426px;
+    height: 144px;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    /* letter-spacing: 0.18em; */
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: center;
+}
+.btn{
+    width: 235px;
+    height: 56px;
+    padding: 20px, 32px, 20px, 32px;
+    border-radius: 20px;
+    background-color: #181C29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: #FFFFFF;
+}
+.btn button{
+    width: 235px;
+    height: 56px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+}
+.btn button:hover{
+    color: #181C29;
+}
+
+/* Santa */
+.santa{
+    background-image: url(https://s3-alpha-sig.figma.com/img/81a3/9777/2dfc048014f1902a0c5cef20e2241de5?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xi8XdHlaNr-HmyuSNkkV5nxl5PUogfd0p504dQj~XZDr8~J4oXViAhzU92XFoPuTcI3rpXHGaJCA4~sXo3ezUZ6kT4h3fPRybbioX8GDHZOGD8itcMYj7TlfOuTf0HmVdHjNE9z1OSZt-6ix61Wh4sEgzLK2PwsC5cUItVEMa157ZEz0J0GigjFKq8nUrX~b9W8mAt5LAVRcAY8GwNUWvGAyomdeUBV4kV-ZZ06PYDxl3B6Ks58OeKszj92DzqpltgkXi0zJNerwXx5hQa06hTcc2QS6pZ55SzZTOLTN36bHvVEPTE8JfQZOMyEOH-xZmE6XL2DZwQh8bCpQMKD-Dw__);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FF4646;
+    padding: 60px 8px 60px 8px;
+    width: 1440px;
+    height: 648px;
+}
+.santa_all{
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 638px);
+    width: 1276px;
+    display: flex;
+    align-items: center;
+}
+.santa_about{
+    width: 426px;
+    height: 328px;
+    max-width: 426px;
+    padding: 60px 0px 60px 0px;
+    gap: 20;
+    opacity: 0px;
+    margin-left: 50px;
+}
+.santa_about h4{
+    width: 426px;
+    height: 24px;
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FF4646;
+}
+.santa_about h2{
+    width: 426px;
+    height: 72px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #181C29;
+    margin-top: 25px;
+}
+.santa_about p{
+    width: 426px;
+    height: 72px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.68px;
+    color: #181C29;
+    margin-top: 20px;
+}
+.santa_img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 200px;
+}
+.santa_img img{
+    border-radius: 20px;
+}
+
+/* Happy */
+.happy{
+    background-image: url(https://s3-alpha-sig.figma.com/img/81a3/9777/2dfc048014f1902a0c5cef20e2241de5?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xi8XdHlaNr-HmyuSNkkV5nxl5PUogfd0p504dQj~XZDr8~J4oXViAhzU92XFoPuTcI3rpXHGaJCA4~sXo3ezUZ6kT4h3fPRybbioX8GDHZOGD8itcMYj7TlfOuTf0HmVdHjNE9z1OSZt-6ix61Wh4sEgzLK2PwsC5cUItVEMa157ZEz0J0GigjFKq8nUrX~b9W8mAt5LAVRcAY8GwNUWvGAyomdeUBV4kV-ZZ06PYDxl3B6Ks58OeKszj92DzqpltgkXi0zJNerwXx5hQa06hTcc2QS6pZ55SzZTOLTN36bHvVEPTE8JfQZOMyEOH-xZmE6XL2DZwQh8bCpQMKD-Dw__);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 488px;
+    padding: 60px 8px 60px 8px;
+    background-color: #FF4646;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.happy_intro h4{
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.happy_intro h2{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.happy_slider{
+    width: 1276px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.slider_text h1{
+    width: 184px;
+    height: 98px;
+    font-family: 'Montserrat';
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 97.52px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.slider_image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.slider_arrow{
+    width: 1276px;
+    height: 56px;
+    padding-top: 20px;
+}
+.slider_btn{
+    gap: 20px;
+    display: flex;
+    text-align: right;
+    justify-content: end;
+}
+.left_arrow:hover{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.left_arrow:active{
+    border: 1px solid #FFFFFF;
+    width: 56px;
+    height: 56px;
+    border-radius: 20px;
+}
+.right_arrow:active{
+    border: 1px solid #FFFFFF;
+    width: 56px;
+    height: 56px;
+    border-radius: 20px;
+}
+.left_arrow button:active{
+    color: #ffffff;
+}
+.left_arrow button:hover{
+    color: #FF4646;
+}
+.right_arrow:hover{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    opacity: 1,50;
+}
+.right_arrow button:hover{
+    color: #FF4646;
+}
+.slider_btn button{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background: transparent;
+    width: 56px;
+    height: 56px;
+    border-radius: 20px;
+}
+
+/* Best */
+.best{
+    background-image: url(https://s3-alpha-sig.figma.com/img/81a3/9777/2dfc048014f1902a0c5cef20e2241de5?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xi8XdHlaNr-HmyuSNkkV5nxl5PUogfd0p504dQj~XZDr8~J4oXViAhzU92XFoPuTcI3rpXHGaJCA4~sXo3ezUZ6kT4h3fPRybbioX8GDHZOGD8itcMYj7TlfOuTf0HmVdHjNE9z1OSZt-6ix61Wh4sEgzLK2PwsC5cUItVEMa157ZEz0J0GigjFKq8nUrX~b9W8mAt5LAVRcAY8GwNUWvGAyomdeUBV4kV-ZZ06PYDxl3B6Ks58OeKszj92DzqpltgkXi0zJNerwXx5hQa06hTcc2QS6pZ55SzZTOLTN36bHvVEPTE8JfQZOMyEOH-xZmE6XL2DZwQh8bCpQMKD-Dw__);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 554px;
+    padding: 60px 8px 60px 8px;
+    background-color: #FF4646;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.best_gifts h4{
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.best_gifts h2{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.card_container{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.card{
+    width: 310px;
+    height: 342px;
+    border-radius: 20px;
+    background-color: #ECF3F8;
+}
+.card img{
+    width: 310px;
+    height: 230px;
+    border-radius: 20px;
+}
+.card-content{
+    width: 310px;
+    height: 112px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-align: left;
+}
+.card-content h4{
+    width: 76px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #4361FF;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card-content h3{
+    width: 270px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24.32px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #181C29;
+    margin-left: 20px;
+}
+
+/* Countdown */
+.santasleigh{
+    background-image: url(https://s3-alpha-sig.figma.com/img/116b/cac3/04957fcbcda39d1d47f087b8447ea5a8?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UApIce7vOUKKUe6zh2WWKhidMqFYe0GM~8KR8VVMNTlwuHdAj7DwKUdtDKzujRMiu31T~5qjjvrCqLM9KMDZufNhwtz~9AsZdphFKUlp9VXM2vIVEDMKXRuf9Jtl07RU63lxMVyyEznPFqMnVqQ9qkoqlwJ7Z8FBUBSZm0RovLaBfenkJptSuIRChAalkclZieZOuWMzmsbq7de3K2JrYLvoI1SY1xxJ-YzTQOHrHc7IXA-Frm6S2Zxvo1v9Eik~2h78x8f8sklKzyY-FIX1fEc0K1U548ijCcGoG9JxsbbAlm6s615SWT2~x3XsETShd7lT6E3ljFgpu4R2EBwoKg__),url(https://s3-alpha-sig.figma.com/img/81a3/9777/2dfc048014f1902a0c5cef20e2241de5?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xi8XdHlaNr-HmyuSNkkV5nxl5PUogfd0p504dQj~XZDr8~J4oXViAhzU92XFoPuTcI3rpXHGaJCA4~sXo3ezUZ6kT4h3fPRybbioX8GDHZOGD8itcMYj7TlfOuTf0HmVdHjNE9z1OSZt-6ix61Wh4sEgzLK2PwsC5cUItVEMa157ZEz0J0GigjFKq8nUrX~b9W8mAt5LAVRcAY8GwNUWvGAyomdeUBV4kV-ZZ06PYDxl3B6Ks58OeKszj92DzqpltgkXi0zJNerwXx5hQa06hTcc2QS6pZ55SzZTOLTN36bHvVEPTE8JfQZOMyEOH-xZmE6XL2DZwQh8bCpQMKD-Dw__);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 668px;
+    background-color: #FF4646;
+    padding: 60px 8px 60px 8px;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+}
+.santasleigh_square{
+    width: 426px;
+    height: 428px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 440px;
+    margin-top: 40px;
+}
+.santasleigh_title{
+    width: 426px;
+    height: 108px;
+}
+.santasleigh_title h2{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+.santasleigh_btn{
+    width: 235px;
+    height: 56px;
+    padding: 20px, 32px, 20px, 32px;
+    border-radius: 20px;
+    background-color: #181C29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 94px;
+    margin-top: 20px;
+}
+.santasleigh_btn button{
+    width: 173px;
+    height: 16px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+}
+.santasleigh_caption h4{
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.santasleigh_count{
+    display: flex;
+    width: 344px;
+    height: 72px;
+    background-color: #FFFFFF66;
+    padding: 8px 12px 12px 12px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.count_container{
+    width: 344px;
+    height: 72px;
+    width: 344px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.count_container h2{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.count_container h4{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-left: -px;
+}
+.divider {
+    width: 2px;
+    height: 20px;
+    background-color: #FFFFFF66;
+    align-self: center;
+}
+
+/* Footer */
+.footer{
+    width: 1440px;
+    height: 496px;
+    padding: 60px 8px 60px 8px;
+    color: #FFFFFF;
+    margin-top: -80px;
+}
+.footer_container{
+    display: flex;
+    justify-content: center;
+}
+.footer_card_container{
+    width: 1276px;
+    height: 376px;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_card{
+    width: 417.33px;
+    height: 204px;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ECF3F8;
+}
+.footer_card img{
+    width: 80px;
+    height: 80px;
+}
+
+.footer_card_content h4{
+    width: 377.33px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    color: #181C29;
+    text-transform: uppercase;
+}
+.footer_card_content h3{
+    width: 377.33px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24.32px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #181C29;
+    text-transform: uppercase;
+}
+.footer_info{
+    padding-bottom: 60px;
+}
+.footer_social{
+    width: 196;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.social_icons a{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    gap: 12px;
+}
+.footer_more{
+    justify-content: center;
+    text-align: center;
+}
+.footer_more p{
+    width: 301px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.68px;
+    text-align: center;
+    color: #181C29;
+    margin-left: 560px;
+    margin-top: 5px;
+}
+.footer_more a{
+    width: 290px;
+    height: 24px;
+    font-family: "Allura";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #181C29;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .header_logo{
+        display: flex;
+        text-align-last: left;
+        align-items: start;
+    }
+    .santa_all{
+        width: 752px;
+    }
+    .santa_about{
+        margin: 0;
+    }
+    .santa_img{
+        margin: 0;
+    }
+}
+
+/* Page Gifts */
+*{
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+.gifts{
+    width: 1440px;
+    height: 1394px;
+    background-color: #FF4646;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.gifts_img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.giftsMain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+.gifts_square{
+    width: 1276px;
+    height: 1274px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.giftsMain_title h1{
+    width: 426px;
+    height: 144px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.18em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-left: 435px;
+}
+.gifts_action{
+    width: 474px;
+    height: 40px;
+    display: flex;
+    gap: 8px;
+    margin-left: 403px;
+}
+.gifts_action h4{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 12px 20px 12px 20px;
+}
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1276px;
+    height: 1050px;
+}
